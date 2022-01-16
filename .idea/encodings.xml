@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-multiple-inputs-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-html-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-revealjs-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-epub-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-docbkx-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-jdocbook-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctorj-twitter-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctorj-twitter-extension/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

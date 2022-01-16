@@ -1,0 +1,27 @@
+= JavaPass社区
+:Author:    歪哥
+:site:      wiki.waizaowang.com
+:Date:      2022
+:Revision:  1.0
+:revdate: {docdate}
+:toclevels: 4
+:sectnumlevels: 5
+
+== 简介
+
+include::Introduce.asciidoc[leveloffset=+1]
+
+== Java
+
+include::JavaBase.asciidoc[leveloffset=+1]
+include::Java8.asciidoc[leveloffset=+1]
+
+== 常用框架
+
+include::Frame.asciidoc[leveloffset=+1]
+
+== 数据库
+
+include::Database.asciidoc[leveloffset=+1]
+
+== 资源汇总

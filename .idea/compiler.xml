@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="asciidoc-maven-site-example" />
+        <module name="asciidoctorj-twitter-extension" />
+        <module name="asciidoctor-with-extension-example" />
+        <module name="asciidoc-multiple-inputs-example" />
+        <module name="JavaPass" />
+        <module name="asciidoc-to-html-example" />
+        <module name="asciidoctor-diagram-example" />
+        <module name="asciidoctor-pdf-cjk-example" />
+        <module name="asciidoc-to-revealjs-example" />
+        <module name="asciidoctor-pdf-example" />
+        <module name="asciidoctor-epub-example" />
+        <module name="asciidoctor-pdf-with-theme-example" />
+        <module name="docbook-pipeline-jdocbook-example" />
+        <module name="docbook-pipeline-docbkx-example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asciidoc-asciidoctor-maven-examples" target="1.5" />
+      <module name="asciidoc-maven-site-example" target="1.5" />
+      <module name="asciidoc-multiple-inputs-example" target="1.8" />
+      <module name="asciidoc-to-html-example" target="1.8" />
+      <module name="asciidoc-to-revealjs-example" target="1.8" />
+      <module name="asciidoctor-diagram-example" target="1.5" />
+      <module name="asciidoctor-epub-example" target="1.8" />
+      <module name="asciidoctor-maven-plugin" target="1.8" />
+      <module name="asciidoctor-pdf-cjk-example" target="1.8" />
+      <module name="asciidoctor-pdf-example" target="1.8" />
+      <module name="asciidoctor-pdf-with-theme-example" target="1.8" />
+      <module name="asciidoctor-with-extension-example" target="1.5" />
+      <module name="asciidoctorj-twitter-extension" target="1.8" />
+      <module name="docbook-pipeline-docbkx-example" target="1.8" />
+      <module name="docbook-pipeline-jdocbook-example" target="1.8" />
+      <module name="java-extension-example" target="1.5" />
+      <module name="JavaPass" target="1.5" />
+      <module name="pybbs-doc" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaPass" options="" />
+    </option>
+  </component>
+</project>

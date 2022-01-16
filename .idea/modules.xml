@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaPass.iml" filepath="$PROJECT_DIR$/JavaPass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-asciidoctor-maven-examples.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-asciidoctor-maven-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-maven-site-example/asciidoc-maven-site-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-maven-site-example/asciidoc-maven-site-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-multiple-inputs-example/asciidoc-multiple-inputs-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-multiple-inputs-example/asciidoc-multiple-inputs-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-html-example/asciidoc-to-html-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-html-example/asciidoc-to-html-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-revealjs-example/asciidoc-to-revealjs-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoc-to-revealjs-example/asciidoc-to-revealjs-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-diagram-example/asciidoctor-diagram-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-diagram-example/asciidoctor-diagram-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-epub-example/asciidoctor-epub-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-epub-example/asciidoctor-epub-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-cjk-example/asciidoctor-pdf-cjk-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-cjk-example/asciidoctor-pdf-cjk-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-example/asciidoctor-pdf-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-example/asciidoctor-pdf-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-with-theme-example/asciidoctor-pdf-with-theme-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/asciidoctor-pdf-with-theme-example/asciidoctor-pdf-with-theme-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctor-with-extension-example/asciidoctor-with-extension-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctor-with-extension-example/asciidoctor-with-extension-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctorj-twitter-extension/asciidoctorj-twitter-extension.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/asciidoctorj-twitter-extension/asciidoctorj-twitter-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-docbkx-example/docbook-pipeline-docbkx-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-docbkx-example/docbook-pipeline-docbkx-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-jdocbook-example/docbook-pipeline-jdocbook-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/docbook-pipeline-jdocbook-example/docbook-pipeline-jdocbook-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/java-extension-example.iml" filepath="$PROJECT_DIR$/../../java/asciidoctor-maven-examples/java-extension-example/java-extension-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../HumanAi/WaiZaoWangServer/WZaoBBS/docs/pybbs-doc.iml" filepath="$PROJECT_DIR$/../../../HumanAi/WaiZaoWangServer/WZaoBBS/docs/pybbs-doc.iml" />
+    </modules>
+  </component>
+</project>

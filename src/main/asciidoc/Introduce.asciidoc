@@ -1,0 +1,20 @@
+== JavaPass初衷
+
+JavaPass整理和总结Java常见开发和面试知识点，给大家提供一份高质量有价值的知识文档库，节约大家搜集和整理知识文档的时间，投入更多精力去建立自己的知识体系。 +
+JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈问题，它仅仅是一个文档开源项目，它可能更适合应届毕业生和Java初级开发者提供一些指南。 +
+希望有更多的人加入我们，让JavaPass更全面、更完善，让更多的人受益。 +
+
+== 加入我们
+
+欢迎大家加入到我们的维护工作中来，这是一件非常有意义的事情。可以在gitbug上，提出Issue，指出你觉得需要改进或者完善的地方。 +
+编辑文档过程中，AsciiDoc语法网址： https://asciidoctor.cn/docs/asciidoc-syntax-quick-reference/[AsciiDoc语法]
+
+== 阅读方式
+
+1. 在线阅读 +
+在线阅读知识文档网址： http://wiki.waizaowang.com/[JavaPass社区]
+2. 本地阅读 +
+通过**mvn install**命令生成本地Html文件，即可本地浏览阅读。效果和在线阅读方式一致。
+
+
+

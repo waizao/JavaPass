@@ -22,6 +22,10 @@
     <list default="true" id="02c9bf79-65ed-487b-b256-44ba5156a8b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/asciidoc/Introduce.asciidoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/asciidoc/Introduce.asciidoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-docs/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-docs/Introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-docs/Java8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Java8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-docs/JavaBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/JavaBase.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <updated>1641306167099</updated>
       <workItem from="1641306170409" duration="1362000" />
       <workItem from="1642287624839" duration="2986000" />
-      <workItem from="1642327680192" duration="12625000" />
+      <workItem from="1642327680192" duration="13071000" />
     </task>
     <servers />
   </component>

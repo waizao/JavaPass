@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="asciidoc-maven-site-example" />
-        <module name="asciidoctorj-twitter-extension" />
+        <module name="asciidoctor-pdf-with-theme-example" />
         <module name="asciidoctor-with-extension-example" />
-        <module name="asciidoc-multiple-inputs-example" />
-        <module name="JavaPass" />
-        <module name="asciidoc-to-html-example" />
+        <module name="asciidoctor-pdf-example" />
         <module name="asciidoctor-diagram-example" />
         <module name="asciidoctor-pdf-cjk-example" />
-        <module name="asciidoc-to-revealjs-example" />
-        <module name="asciidoctor-pdf-example" />
-        <module name="asciidoctor-epub-example" />
-        <module name="asciidoctor-pdf-with-theme-example" />
         <module name="docbook-pipeline-jdocbook-example" />
+        <module name="asciidoctor-epub-example" />
+        <module name="asciidoc-multiple-inputs-example" />
+        <module name="asciidoc-to-html-example" />
+        <module name="asciidoctorj-twitter-extension" />
         <module name="docbook-pipeline-docbkx-example" />
+        <module name="asciidoc-maven-site-example" />
+        <module name="asciidoc-to-revealjs-example" />
+        <module name="JavaPass" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,13 +39,13 @@
       <module name="docbook-pipeline-docbkx-example" target="1.8" />
       <module name="docbook-pipeline-jdocbook-example" target="1.8" />
       <module name="java-extension-example" target="1.5" />
-      <module name="JavaPass" target="1.5" />
+      <module name="JavaPass" target="1.8" />
       <module name="pybbs-doc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="JavaPass" options="" />
+      <module name="JavaPass" options="-parameters" />
     </option>
   </component>
 </project>

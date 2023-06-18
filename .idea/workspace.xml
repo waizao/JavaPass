@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,13 +22,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c9bf79-65ed-487b-b256-44ba5156a8b4" name="Default Changelist" comment="">
+    <list default="true" id="02c9bf79-65ed-487b-b256-44ba5156a8b4" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/main/asciidoc/Concurrent.asciidoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/asciidoc/book/Java并发编程的艺术.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/asciidoc/images/threadstatuschange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/asciidoc/images/threadstatuslist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/test/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/demo/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_native_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_constants_0_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_enxio_0_32_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_netdb_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_posix_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_unixsocket_0_38_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_backport9_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_invokebinder_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_options_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_martiansoftware_nailgun_server_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asciidoctor_asciidoctorj_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asciidoctor_asciidoctorj_api_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_dirgra_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_9_2_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_core_9_2_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_stdlib_9_2_17_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/asciidoc/Introduce.asciidoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/asciidoc/Introduce.asciidoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/asciidoc/Index.asciidoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/asciidoc/Index.asciidoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-docs/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-docs/Introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-docs/Java8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/Java8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-docs/JavaBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/JavaBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-docs/Java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +80,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="23EjW1Po0y26CT2YalCif0y2GlY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,27 +91,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/asciidoc" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.35172415" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/code/github/waizaowang/JavaPass/src/main",
+    "settings.editor.selected.configurable": "Errors",
+    "spring.configuration.checksum": "5f48e7ab93a1aa99b51a1085c37697ee"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\github\waizaowang\JavaPass\src\main" />
+      <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc\images" />
       <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc" />
       <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc\database" />
       <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc\javabase" />
       <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc\Frame" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\repertory\GitHub\waizaowang\JavaPass\src\main\asciidoc" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -76,6 +121,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,12 +134,27 @@
       <updated>1641306167099</updated>
       <workItem from="1641306170409" duration="1362000" />
       <workItem from="1642287624839" duration="2986000" />
-      <workItem from="1642327680192" duration="13071000" />
+      <workItem from="1642327680192" duration="13097000" />
+      <workItem from="1642376423100" duration="7670000" />
+      <workItem from="1642417576387" duration="1304000" />
+      <workItem from="1642466817079" duration="928000" />
+      <workItem from="1642472987694" duration="4351000" />
+      <workItem from="1642546474300" duration="1276000" />
+      <workItem from="1642600659587" duration="385000" />
+      <workItem from="1642640513008" duration="2395000" />
+      <workItem from="1642765460031" duration="1889000" />
+      <workItem from="1643186570144" duration="2820000" />
+      <workItem from="1643269299586" duration="1444000" />
+      <workItem from="1643289350808" duration="616000" />
+      <workItem from="1643316936947" duration="35000" />
+      <workItem from="1647168488749" duration="1202000" />
+      <workItem from="1664689442739" duration="5000" />
+      <workItem from="1687093925917" duration="1228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -105,35 +166,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642337706946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1642337706946" />
-    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1642337357401">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642337357401" />
-    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1642337358958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1642337358958" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1642337361922">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642337361922" />
-    <state x="460" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1642326897246">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="460" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1642326897246" />
-    <state x="334" y="180" key="new project wizard" timestamp="1641307015590">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1641307015590" />
   </component>
 </project>

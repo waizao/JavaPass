@@ -1,0 +1,28 @@
+== 并发编程
+
+=== 多线程
+
+并发编程能提高程序的执行效率，但也可能会遇到内存泄漏、死锁、线程不安全等问题。
+
+* 线程和进程区别
+
+进程是程序执行的最小单位，一个单独的APP就是一个进程。线程是比进程更新的运行单位，一个进程中可以有多个线程。
+
+* 创建线程的几种方式
+
+. 实现Runnable接口 +
+. 继承Thead类 +
+. 继承Callable接口 +
+
+* 线程生命周期和状态
+
+image::images/threadstatuslist.png[]
+
+image::images/threadstatuschange.png[]
+
+更详细说明可以阅读 https://book/Java并发编程的艺术.pdf[《Java并发编程艺术》]
+
+=== 线程池
+
+* 线程池参数
+

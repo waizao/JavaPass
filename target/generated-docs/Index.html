@@ -443,7 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>JavaPass社区</h1>
 <div class="details">
 <span id="author" class="author">歪哥</span><br>
-<span id="revdate">2022-01-16</span>
+<span id="revdate">2022-01-17</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -471,19 +471,29 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#_常用框架">3. 常用框架</a>
+<li><a href="#_重点知识">3. 重点知识</a>
+<ul class="sectlevel2">
+<li><a href="#_并发编程">3.1. 并发编程</a>
 <ul class="sectlevel3">
-<li><a href="#_准备环境必须">3.1. 准备环境[必须]</a></li>
-<li><a href="#_准备环境非必须">3.2. 准备环境[非必须]</a></li>
+<li><a href="#_多线程">3.1.1. 多线程</a></li>
+<li><a href="#_线程池">3.1.2. 线程池</a></li>
 </ul>
 </li>
-<li><a href="#_数据库">4. 数据库</a>
-<ul class="sectlevel3">
-<li><a href="#_准备环境必须_2">4.1. 准备环境[必须]</a></li>
-<li><a href="#_准备环境非必须_2">4.2. 准备环境[非必须]</a></li>
 </ul>
 </li>
-<li><a href="#_资源汇总">5. 资源汇总</a></li>
+<li><a href="#_常用框架">4. 常用框架</a>
+<ul class="sectlevel3">
+<li><a href="#_准备环境必须">4.1. 准备环境[必须]</a></li>
+<li><a href="#_准备环境非必须">4.2. 准备环境[非必须]</a></li>
+</ul>
+</li>
+<li><a href="#_数据库">5. 数据库</a>
+<ul class="sectlevel3">
+<li><a href="#_准备环境必须_2">5.1. 准备环境[必须]</a></li>
+<li><a href="#_准备环境非必须_2">5.2. 准备环境[非必须]</a></li>
+</ul>
+</li>
+<li><a href="#_资源汇总">6. 资源汇总</a></li>
 </ul>
 </div>
 </div>
@@ -495,7 +505,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h3 id="_javapass初衷">1.1. JavaPass初衷</h3>
 <div class="paragraph">
 <p>JavaPass整理和总结Java常见开发和面试知识点，给大家提供一份高质量有价值的知识文档库，节约大家搜集和整理知识文档的时间，投入更多精力去建立自己的知识体系。<br>
-JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈问题，它仅仅是一个文档开源项目，它可能更适合应届毕业生和Java初级开发者提供一些指南。<br>
+JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈问题，它仅仅是一个文档开源项目，可能更适合应届毕业生和Java初级开发者提供一些指南。<br>
 作者毕业至今，没换过工作，目前在求职中，最近在整理自己的知识体系。建立JavaPass项目，是希望将自己的成果分享给大家，让大家少踩坑。当然更希望有更多的人加入我们，让JavaPass更全面、更完善，让更多的人受益。<br></p>
 </div>
 </div>
@@ -512,11 +522,11 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 <ol class="arabic">
 <li>
 <p>在线阅读<br>
-在线阅读知识文档网址： <a href="http://wiki.waizaowang.com/">JavaPass社区</a></p>
+在线阅读知识文档网址（暂未开通）</p>
 </li>
 <li>
 <p>本地阅读<br>
-通过<strong>mvn install</strong>命令生成本地Html文件，即可本地浏览阅读。效果和在线阅读方式一致。</p>
+在github上下载工程源码，通过<strong>mvn install</strong>命令生成本地Html文件，即可本地浏览阅读。效果和在线阅读方式一致。</p>
 </li>
 </ol>
 </div>
@@ -617,10 +627,80 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 </div>
 <div class="sect1">
-<h2 id="_常用框架">3. 常用框架</h2>
+<h2 id="_重点知识">3. 重点知识</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_并发编程">3.1. 并发编程</h3>
+<div class="sect3">
+<h4 id="_多线程">3.1.1. 多线程</h4>
+<div class="paragraph">
+<p>并发编程能提高程序的执行效率，但也可能会遇到内存泄漏、死锁、线程不安全等问题。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>线程和进程区别</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>进程是程序执行的最小单位，一个单独的APP就是一个进程。线程是比进程更新的运行单位，一个进程中可以有多个线程。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>创建线程的几种方式</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>实现Runnable接口<br></p>
+</li>
+<li>
+<p>继承Thead类<br></p>
+</li>
+<li>
+<p>继承Callable接口<br></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>线程生命周期和状态</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/threadstatuslist.png" alt="threadstatuslist">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/threadstatuschange.png" alt="threadstatuschange">
+</div>
+</div>
+<div class="paragraph">
+<p>更详细说明可以阅读 <a href="https://book/Java并发编程的艺术.pdf">《Java并发编程艺术》</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_线程池">3.1.2. 线程池</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>线程池参数</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_常用框架">4. 常用框架</h2>
 <div class="sectionbody">
 <div class="sect3">
-<h4 id="_准备环境必须">3.1. 准备环境[必须]</h4>
+<h4 id="_准备环境必须">4.1. 准备环境[必须]</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -633,7 +713,7 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 </div>
 <div class="sect3">
-<h4 id="_准备环境非必须">3.2. 准备环境[非必须]</h4>
+<h4 id="_准备环境非必须">4.2. 准备环境[非必须]</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -654,10 +734,10 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 </div>
 <div class="sect1">
-<h2 id="_数据库">4. 数据库</h2>
+<h2 id="_数据库">5. 数据库</h2>
 <div class="sectionbody">
 <div class="sect3">
-<h4 id="_准备环境必须_2">4.1. 准备环境[必须]</h4>
+<h4 id="_准备环境必须_2">5.1. 准备环境[必须]</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -670,7 +750,7 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 </div>
 <div class="sect3">
-<h4 id="_准备环境非必须_2">4.2. 准备环境[非必须]</h4>
+<h4 id="_准备环境非必须_2">5.2. 准备环境[非必须]</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -691,7 +771,7 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 </div>
 <div class="sect1">
-<h2 id="_资源汇总">5. 资源汇总</h2>
+<h2 id="_资源汇总">6. 资源汇总</h2>
 <div class="sectionbody">
 
 </div>
@@ -699,7 +779,7 @@ JavaPass社区并不是创造一个新的知识或者解决某个领域的瓶颈
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-01-16 22:41:18 +0800
+Last updated 2022-01-17 09:09:48 +0800
 </div>
 </div>
 </body>

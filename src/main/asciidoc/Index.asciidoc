@@ -16,6 +16,10 @@ include::Introduce.asciidoc[leveloffset=+1]
 include::JavaBase.asciidoc[leveloffset=+1]
 include::Java8.asciidoc[leveloffset=+1]
 
+== 重点知识
+
+include::Concurrent.asciidoc[leveloffset=+1]
+
 == 常用框架
 
 include::Frame.asciidoc[leveloffset=+1]
